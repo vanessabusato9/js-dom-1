@@ -4,7 +4,8 @@ const img = document.getElementById("immagine-lampadina"); // collega imamgine h
 
 
 button.addEventListener("click", function () {
-    console.log("Bottone cliccato", img.src); //messaggio in console quando il bottone viene cliccato
+    console.log("Bottone cliccato", img.src); //messaggio in console quando il bottone viene cliccato 
+    //.src indica il percorso dell'immagine
 
     if (img.src.includes("white_lamp.png")) {
         img.src = "./img/yellow_lamp.png";
